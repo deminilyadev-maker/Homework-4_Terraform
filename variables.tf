@@ -63,7 +63,7 @@ variable "metadata" {
   default = {
     common = {
       serial-port-enable = 1
-      ssh-keys = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHZyC25azetyfw72+EuFmlVfK1JNvzEXZCCsvS2qe9U2 terraform-yandex"
+      ssh-keys = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHZyC25azetyfw72+EuFmlVfK1JNvzEXZCCsvS2qe9U2 terraform-yandex"
     }
   }
 }

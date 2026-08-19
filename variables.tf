@@ -47,12 +47,6 @@ variable "db_vpc_name" {
 
 ###ssh vars
 
-variable "vms_ssh_root_key" {
-  type        = string
-  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHZyC25azetyfw72+EuFmlVfK1JNvzEXZCCsvS2qe9U2 terraform-yandex"
-  description = "ssh-keygen -t ed25519"
-}
-
 ### metadata 
 variable "metadata" {
   type = map(object({
